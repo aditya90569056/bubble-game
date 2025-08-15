@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(182, 228, 182);
+}
+.pannel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.ptop
+{
+    justify-content: space-between;
+    display: flex;
+    color: #fff;
+    padding: 0px 250px;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(120, 187, 120);
+}
+.box{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(19, 155, 73);
+
+}
+.elem{
+
+    align-items: center;
+    display: flex;
+    width: 10%;
+
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 17px;
+}
+.pbot
+{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100%-100px);
+    padding: 20px;
+    
+}
+.buble{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    font-size: 22px;
+    height: 60px;
+    background-color: rgb(19, 155, 73);
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+}
+.buble:hover{
+    cursor: pointer;
+    background-color: rgb(4, 97, 4);
+}
